@@ -1,0 +1,19 @@
+{
+  "name": "figma-mcp-stress-test",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "agent": "node agent.js",
+    "mcp-client": "node mcp-client.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "dotenv": "^17.2.1",
+    "mcp-client": "^1.13.0"
+  }
+}
