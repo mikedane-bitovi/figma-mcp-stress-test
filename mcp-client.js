@@ -39,7 +39,7 @@ async function main() {
 
     const getCode = async (i) => {
         const result = await client.callTool({
-            name: "get_metadata",  // get_metadata seems to work?
+            name: "get_code",  // get_metadata seems to work?
             arguments: {
                 clientLanguages: "javascript, html, css",
                 clientFrameworks: "react, tailwind",
